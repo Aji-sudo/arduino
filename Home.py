@@ -2,8 +2,8 @@ import conf
 from boltiot import Sms, Bolt
 import json, time
 
-minimum_limit = 300
-maximum_limit = 600  
+minimum_limit = 190
+maximum_limit = 1022
 
 
 mybolt = Bolt(conf.API_KEY, conf.DEVICE_ID)
